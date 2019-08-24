@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*
+Theme Name: CMS - Child Theme
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: Fanny LEFERT
+Author URI: https://creativeontheroad.com
+Description: First Child Theme build for Assessment 1: Task 1 - Create your own child theme in WordPress 
+Template: twentyseventeen
+Version: 1
+*/
+
+/* @import url("../twentyseventeen/style.css"); */
+
+.site-title a{
+  font-size: 1.4em;
+  line-height: 1.25;
+  color:white!important;
+}

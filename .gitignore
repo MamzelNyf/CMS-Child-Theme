@@ -139,6 +139,5 @@ Thumbs.db
 # -----------------------------------------------------------------------------
 # track these mu-plugins, plugins, and themes. < ADD YOUR OWN ITEMS BELOW >
 # -----------------------------------------------------------------------------
-#!wp-content/mu-plugins/example-mu-plugin/
 #!wp-content/plugins/example-plugin/
-#!wp-content/themes/example-theme
+!wp-content/themes/CMS-17theme-child

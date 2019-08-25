@@ -3,7 +3,9 @@
 
 //enqueue both the parent’s and the child’s stylesheets with ACTION
 function childtheme_enqueue_styles() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style('social-profile-widget',  get_stylesheet_directory_uri() . '/assets/css/social-profile-widget.css');
+	wp_enqueue_style('font-awesome', get_stylesheet_directory_uri() . '/assets/css/font-awesome.min.css');
   }
   add_action( 'wp_enqueue_scripts', 'childtheme_enqueue_styles' );//childtheme_enqueue_styles is HOOKED to wp_enqueue_scripts
 
@@ -33,4 +35,3 @@ function mychildtheme_register_menu() {
     register_nav_menu('new-menu', __('My New Menu'));
 }
 add_action('init', 'mychildtheme_register_menu');
-

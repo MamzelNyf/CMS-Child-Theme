@@ -21,13 +21,13 @@ get_header(); ?>
 	<?php if ( is_home() && ! is_front_page() ) : ?>
 		<header class="page-header">
 			<h1 class="page-title"><?php single_post_title(); ?></h1>
+			
 		</header>
 	<?php else : ?>
 	<header class="page-header">
-	<h1>TEST</h1>
-	<?php if( dynamic_sidebar('my_new_widget_area')) : else : endif; ?> 
+	
 
-		<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
+	<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
 	</header>
 	<?php endif; ?>
 

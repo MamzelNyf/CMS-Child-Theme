@@ -28,7 +28,7 @@ function mychildtheme_widget_init() {
 	register_sidebar( array(
 		'name'=> 'My new Widget Area',
 		'id' => 'my_new_widget_area',
-		'before_widget' => '<aside>',
+		'before_widget' => '<aside class="lang-area">',
 		'after_widget' => '</aside>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',

@@ -4,21 +4,22 @@
     padding-top: 5px;
     position: relative;
     margin: 1px 10px;
+    display: inline-block;
 }
 
 .social-icons a {
     font-size: 21px;
-    padding: 8px 10px 6px;
     color: white;
     margin-bottom: 5px;
     display: inline-block;
     margin: 1px 5px;
     width: 30px;
     height: 30px;
+    border-radius: 50%;
 }
 
 .social-icons a:hover {
-    color: #fff;
+    color: rgb(93, 244, 255);
     text-decoration: none;
     border-radius: 50%;
 }

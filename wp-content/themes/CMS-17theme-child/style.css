@@ -13,6 +13,31 @@ Version: 1
 
 .site-title a{
   font-size: 1.4em;
-  line-height: 1.25;
-  color:white!important;
+  color:white;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Courier New', Courier, monospace ;
+	font-size: 18px;
+}
+
+.site-content {
+  padding: 0;
+}
+
+#menu-menu-for-my-new-theme-english, #menu-menu-for-my-new-theme-french {
+display: flex;
+list-style: none;
+justify-content: center;
+margin:0;
+}
+#menu-menu-for-my-new-theme-english li, #menu-menu-for-my-new-theme-french li{
+  width: auto;
+  background-color: rgb(170, 243, 198);
+  margin: 8px;
+  padding:10px
 }

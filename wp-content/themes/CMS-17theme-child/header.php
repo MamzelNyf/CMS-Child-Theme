@@ -56,4 +56,5 @@
 	<div class="site-content-contain">
 		<div id="content" class="site-content">	
 		<?php wp_nav_menu(array('theme_location' => 'new-menu'));?>
+		<hr>
 
